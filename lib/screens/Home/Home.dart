@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/util/Navigator.dart';
-import 'package:firebase_auth/util/DummyData.dart';
+import 'package:firebase_auth_app/util/Navigator.dart';
+import 'package:firebase_auth_app/util/DummyData.dart';
 
 class HomePage extends StatefulWidget {
   @override
