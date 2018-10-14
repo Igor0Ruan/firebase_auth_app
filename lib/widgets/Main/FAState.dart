@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/screens/Login/Login.dart';
-import 'package:firebase_auth/routes.dart';
+import 'package:firebase_auth_app/screens/Login/Login.dart';
+import 'package:firebase_auth_app/routes.dart';
 
 class FirebaseAuthApp extends StatefulWidget {
   @override
