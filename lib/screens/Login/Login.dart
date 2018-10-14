@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth/util/Navigator.dart';
+import 'package:firebase_auth_app/util/Navigator.dart';
 
 class LoginPage extends StatefulWidget {
   @override
