@@ -35,6 +35,10 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
     FocusScope.of(context).requestFocus(new FocusNode());
   }
 
+  void register(BuildContext context) {
+    return;
+  }
+
   Future<Null> _playAnimation() async {
     try {
       await _iconAnimationController.forward().orCancel;
@@ -142,6 +146,21 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
                                               child: new Text("Login"),
                                               onPressed: () {
                                                 doLogin(context);
+                                              },
+                                              splashColor: Colors.blue,
+                                            ),
+                                            Padding(
+                                              padding: const EdgeInsets.only(
+                                                  bottom: 10.0),
+                                            ),
+                                            MaterialButton(
+                                              height: 40.0,
+                                              minWidth: 100.0,
+                                              color: Colors.black45,
+                                              textColor: Colors.white70,
+                                              child: new Text("Register"),
+                                              onPressed: () {
+                                                register(context);
                                               },
                                               splashColor: Colors.blue,
                                             )
