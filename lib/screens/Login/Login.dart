@@ -1,3 +1,4 @@
+import 'package:flutter/services.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth_app/util/Navigator.dart';
 
@@ -53,6 +54,7 @@ class _LoginPageState extends State<LoginPage> with TickerProviderStateMixin {
   @override
   void initState() {
     super.initState();
+    SystemChrome.setEnabledSystemUIOverlays(SystemUiOverlay.values);
 
     _formAnimationController =
         AnimationController(vsync: this, duration: Duration(seconds: 2));

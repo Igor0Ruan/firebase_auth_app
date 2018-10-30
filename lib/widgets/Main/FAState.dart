@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:firebase_auth_app/screens/Login/Login.dart';
+import 'package:firebase_auth_app/screens/Splash/SplashScreen.dart';
 import 'package:firebase_auth_app/routes.dart';
 
 class FirebaseAuthApp extends StatefulWidget {
@@ -12,7 +12,7 @@ class _FirebaseAuthAppState extends State<FirebaseAuthApp> {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: LoginPage(),
+      home: SplashScreen(),
       routes: FirebaseAuthAppRoutes().routes,
     );
   }
